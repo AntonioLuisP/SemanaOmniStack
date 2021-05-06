@@ -16,7 +16,7 @@ export default function NewIncident() {
   async function handleNewIncident(e) {
     e.preventDefault();
     const data = {
-      title,
+      title,  
       description,
       value,
     }
